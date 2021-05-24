@@ -1,8 +1,8 @@
-[root@mserv02 ~]# spark-shell 
+[root@serv02 ~]# spark-shell 
 21/05/24 06:42:32 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-Spark context Web UI available at http://host-mserv.meedev.com:4040
+Spark context Web UI available at ***
 Spark context available as 'sc' (master = local[*], app id = local-1621852967843).
 Spark session available as 'spark'.
 Welcome to
