@@ -1,0 +1,10 @@
+nationalitesRDD.foreach(println)
+
+val rddMarocains1 = removedLineRdd.filter(elem => elem.split(",")(2).equals("Marocaine"))
+val removedLineRdd = nationalitesRDD.filter(!_.isEmpty)
+
+#pairs RDD
+#reduce
+
+val withAgeInt = removedLineRdd.map(elem => elem.split(",")(3).toInt)
+val allLine = removedLineRdd.map(elem => (elem.split(",")(0), elem.split(",")(3).toInt))
